@@ -359,7 +359,6 @@ Question 2: Considering the registration flow and the following implementation r
 Which of the 3 risks do you consider the most critical and why? • RIS_01 • RIS_02 • RIS_03 • All risks are equally critical
 
 Rspta: To consider for me as a priority risk, it would be risk_02, because the database is the heart of the system, without it we would not have users, flows and so on.
-![image](https://user-images.githubusercontent.com/39382027/139460957-e58423a3-9f08-4ade-8372-f8fb4752b1db.png)
 
 
 
