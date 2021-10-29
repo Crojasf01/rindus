@@ -327,8 +327,7 @@ For our commits message we use [Conventional Commits](https://www.conventionalco
   
 
 > See [Conventional Commits full specification](https://www.conventionalcommits.org/en/v1.0.0/#specification).
-
-  
+ 
 
 #  **Process**
 
@@ -343,3 +342,24 @@ For our commits message we use [Conventional Commits](https://www.conventionalco
 4. Push to the branch (`git push origin type/####-Description`)
 
 5. Create new Pull Request
+
+Questionnaire
+
+Question 1: A user story to implement registration in the app is estimated via “Planning Poker”. The developers estimate the user story with 3 story points. As a tester you see a much higher effort therefore you show the 8-point card. A discussion begins, and developers have the opinion that the risks can be neglected as they will not happen anyway. They say that the story can be tested quickly.  Question: What is your reasoning during the discussion and what card would you show with a new estimation?
+
+Rspta: The reasoning would be that to really estimate we would have to look at what the change impacts and how long it can be implemented in, on the one hand and on the other perspective look at how long it might take to test the test cases as well as in how many iterations so add it up or keep it to 8 points.
+
+
+
+Question 2: Considering the registration flow and the following implementation risks:
+•	[RIS_01] Foreign customers are also allowed to register in the app so that there may be problems when saving different character sets. Probability of occurrence: medium Effect (damage): medium 
+•	[RIS_02] The database is located on an external server and cannot be reached (e.g. due to downtimes or maintenance work). Probability of occurrence: low Effect (damage): high 
+•	[RIS_03] Problems viewing on different screen size and manufacturer. Probability of occurrence: high Effect (damage): low
+
+Which of the 3 risks do you consider the most critical and why? • RIS_01 • RIS_02 • RIS_03 • All risks are equally critical
+
+Rspta: To consider for me as a priority risk, it would be risk_02, because the database is the heart of the system, without it we would not have users, flows and so on.
+![image](https://user-images.githubusercontent.com/39382027/139460957-e58423a3-9f08-4ade-8372-f8fb4752b1db.png)
+
+
+
