@@ -343,7 +343,7 @@ For our commits message we use [Conventional Commits](https://www.conventionalco
 
 5. Create new Pull Request
 
-Questionnaire
+ #  **Questionnaire**
 
 Question 1: A user story to implement registration in the app is estimated via “Planning Poker”. The developers estimate the user story with 3 story points. As a tester you see a much higher effort therefore you show the 8-point card. A discussion begins, and developers have the opinion that the risks can be neglected as they will not happen anyway. They say that the story can be tested quickly.  Question: What is your reasoning during the discussion and what card would you show with a new estimation?
 
