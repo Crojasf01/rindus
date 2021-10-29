@@ -1,0 +1,970 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635393719049' stop='1635393740686'>
+    <name>as a user of the system I want to valide at Initial Screen: Validate Home Page screen</name>
+    <title>as a user of the system I want to valide at Initial Screen: Validate Home Page screen</title>
+    <test-cases>
+        <test-case start='1635393719049' status='passed' stop='1635393719051'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Nexus 6 10.0.0-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1635393719051' status='passed' stop='1635393740674'>
+            <name>Given as user launch the app_</name>
+            <title>Given as user launch the app_</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Nexus 6 10.0.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1635393719054' status='passed' stop='1635393719319'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c4e2ae5a-dadf-4b15-b40f-7d6bcf64c41d-attachment.json' type='application/json' size='287'/>
+                        <attachment title='Response' source='604de960-6fd2-43dd-93ef-ce39ab418595-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635393719319' status='undefined'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635393719330' status='undefined'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1635393719331' status='passed' stop='1635393719680'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='88f2cb4d-fa45-4a1e-b663-7869c09f2166-attachment.json' type='application/json' size='384'/>
+                                        <attachment title='Screenshot' source='10731031-e541-40cd-a950-0c39091c5191-attachment.png' type='image/png' size='119015'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1635393719680' status='passed' stop='1635393719778'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments>
+                                        <attachment title='Response' source='061382f7-f58a-4094-9479-112d2a5ca36f-attachment.json' type='application/json' size='136'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1635393719779' status='undefined'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1635393719788' status='undefined'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1635393719790' status='passed' stop='1635393720073'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='83fabd18-b814-42b5-b2db-c9b651cdfc24-attachment.json' type='application/json' size='384'/>
+                                                        <attachment title='Screenshot' source='f90c0d04-2af2-4da8-8b4c-c476720d78ae-attachment.png' type='image/png' size='118893'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1635393720074' status='passed' stop='1635393720353'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments>
+                                                        <attachment title='Screenshot' source='4cc3d444-d48c-4ee9-9c38-4f3ba07590ce-attachment.png' type='image/png' size='118835'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1635393720353' status='passed' stop='1635393720599'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments>
+                                                        <attachment title='Screenshot' source='e1ed2ee7-88ac-4244-8192-5f41442a0760-attachment.png' type='image/png' size='119311'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1635393720599' status='passed' stop='1635393720832'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments>
+                                                        <attachment title='Response' source='fb53f613-e240-4660-88e2-acf3d6478a4c-attachment.json' type='application/json' size='136'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1635393720832' status='undefined'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1635393720837' status='undefined'>
+                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                            <attachments/>
+                                                            <steps>
+                                                                <step start='1635393720840' status='passed' stop='1635393721070'>
+                                                                    <name>POST /session/:sessionId/element</name>
+                                                                    <title>POST /session/:sessionId/element</title>
+                                                                    <attachments>
+                                                                        <attachment title='Request' source='203cc9cb-bc1d-43a1-9d54-d28df1a38169-attachment.json' type='application/json' size='384'/>
+                                                                        <attachment title='Screenshot' source='8b69504b-6faa-487d-a9b0-2ea71a277bd4-attachment.png' type='image/png' size='119311'/>
+                                                                    </attachments>
+                                                                    <steps/>
+                                                                </step>
+                                                                <step start='1635393721070' status='passed' stop='1635393721312'>
+                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                    <attachments>
+                                                                        <attachment title='Screenshot' source='f2e938da-98ee-4887-b5b6-437a615c47e5-attachment.png' type='image/png' size='119311'/>
+                                                                    </attachments>
+                                                                    <steps/>
+                                                                </step>
+                                                                <step start='1635393721312' status='passed' stop='1635393721557'>
+                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                    <attachments>
+                                                                        <attachment title='Screenshot' source='d7303986-8dc9-4943-8a2d-50c214dd84bd-attachment.png' type='image/png' size='119311'/>
+                                                                    </attachments>
+                                                                    <steps/>
+                                                                </step>
+                                                                <step start='1635393721557' status='passed' stop='1635393721835'>
+                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                    <attachments>
+                                                                        <attachment title='Screenshot' source='41be686a-15d5-4baf-9539-37983acfeffa-attachment.png' type='image/png' size='119311'/>
+                                                                    </attachments>
+                                                                    <steps/>
+                                                                </step>
+                                                                <step start='1635393721836' status='passed' stop='1635393722064'>
+                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                    <attachments>
+                                                                        <attachment title='Screenshot' source='99f890c0-01fb-41b0-afc9-5c8e631ffec7-attachment.png' type='image/png' size='119311'/>
+                                                                    </attachments>
+                                                                    <steps/>
+                                                                </step>
+                                                                <step start='1635393722064' status='passed' stop='1635393722115'>
+                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                    <attachments>
+                                                                        <attachment title='Response' source='cd9386a6-3d48-4842-b1aa-faac58a481fd-attachment.json' type='application/json' size='136'/>
+                                                                    </attachments>
+                                                                    <steps/>
+                                                                </step>
+                                                                <step start='1635393722115' status='undefined'>
+                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1635393722122' status='undefined'>
+                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                            <attachments/>
+                                                                            <steps>
+                                                                                <step start='1635393722124' status='passed' stop='1635393722347'>
+                                                                                    <name>POST /session/:sessionId/element</name>
+                                                                                    <title>POST /session/:sessionId/element</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Request' source='106f8fba-bc7a-48bd-a4bd-75d8e45d32be-attachment.json' type='application/json' size='384'/>
+                                                                                        <attachment title='Screenshot' source='64dfb1dc-7dbc-47d5-acc8-a5244634ea2f-attachment.png' type='image/png' size='119311'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393722347' status='passed' stop='1635393722601'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Screenshot' source='cbab895c-3304-4fa9-b43e-7c6ed4809166-attachment.png' type='image/png' size='119311'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393722601' status='passed' stop='1635393722837'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Screenshot' source='185af7af-bdb1-49cf-953d-9a20857b133c-attachment.png' type='image/png' size='119311'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393722837' status='passed' stop='1635393723063'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Screenshot' source='2cde0dd7-a43a-4bea-95f5-c231a92786bf-attachment.png' type='image/png' size='119311'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393723063' status='passed' stop='1635393723326'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Screenshot' source='e4a8be48-5de0-4387-a4cf-2aae4d499a62-attachment.png' type='image/png' size='119311'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393723326' status='passed' stop='1635393723573'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Screenshot' source='d02d4ff9-347f-47cc-bca0-9cc17be4d1f6-attachment.png' type='image/png' size='119311'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393723573' status='passed' stop='1635393723830'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Screenshot' source='b027fd7b-3732-49c4-aec1-3ebf0215479a-attachment.png' type='image/png' size='119311'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393723830' status='passed' stop='1635393723873'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Response' source='db4da854-d748-4cc7-9e49-947fa900e9ee-attachment.json' type='application/json' size='136'/>
+                                                                                    </attachments>
+                                                                                    <steps/>
+                                                                                </step>
+                                                                                <step start='1635393723873' status='undefined'>
+                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                    <attachments/>
+                                                                                    <steps>
+                                                                                        <step start='1635393723880' status='undefined'>
+                                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                                            <attachments/>
+                                                                                            <steps>
+                                                                                                <step start='1635393723882' status='passed' stop='1635393724128'>
+                                                                                                    <name>POST /session/:sessionId/element</name>
+                                                                                                    <title>POST /session/:sessionId/element</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Request' source='12bf585d-5521-4225-bba5-c54fe76ec1b5-attachment.json' type='application/json' size='384'/>
+                                                                                                        <attachment title='Screenshot' source='47d77f09-36b5-493e-b695-e4058b4ea1c2-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393724128' status='passed' stop='1635393724377'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='49fc184c-8740-40ff-987f-a4fbe76cdac4-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393724377' status='passed' stop='1635393724607'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='057a62e2-a79f-4a55-bfef-f67309105240-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393724607' status='passed' stop='1635393724846'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='c4438866-8d3c-4419-b9c1-36529b627aff-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393724846' status='passed' stop='1635393725112'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='28015e25-bc6a-4b86-adf6-a0f11c234c7f-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393725112' status='passed' stop='1635393725356'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='49cb7664-833d-453f-9eed-89edacca9500-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393725357' status='passed' stop='1635393725639'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='afb3cbf6-dd15-41d5-b84a-9efb03b0991b-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393725639' status='passed' stop='1635393725874'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='25190fa8-b4db-4324-901d-094263f82d97-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393725874' status='passed' stop='1635393726196'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Screenshot' source='e5867914-53d7-457f-ac08-10bd206092ab-attachment.png' type='image/png' size='119311'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393726196' status='passed' stop='1635393726255'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Response' source='89381c24-4074-4d3f-bf3a-f8fd1dae33ca-attachment.json' type='application/json' size='136'/>
+                                                                                                    </attachments>
+                                                                                                    <steps/>
+                                                                                                </step>
+                                                                                                <step start='1635393726255' status='undefined'>
+                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                    <attachments/>
+                                                                                                    <steps>
+                                                                                                        <step start='1635393726260' status='undefined'>
+                                                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                                                            <attachments/>
+                                                                                                            <steps>
+                                                                                                                <step start='1635393726262' status='passed' stop='1635393726531'>
+                                                                                                                    <name>POST /session/:sessionId/element</name>
+                                                                                                                    <title>POST /session/:sessionId/element</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Request' source='c7c99267-424c-488f-8021-dc1e49971f9a-attachment.json' type='application/json' size='381'/>
+                                                                                                                        <attachment title='Screenshot' source='65af90c7-580a-4672-9177-af5781bb6acc-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393726531' status='passed' stop='1635393726812'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='451454e1-fdb5-4047-a4f9-f958cd7f1e8d-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393726812' status='passed' stop='1635393727051'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='1f979cbd-dfc2-4ec1-ad2b-e06482507250-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393727051' status='passed' stop='1635393727308'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='b15c5349-6163-40a4-b11b-e57abe60ce82-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393727308' status='passed' stop='1635393727562'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='07e24762-8c6e-4c83-92d7-20aa947419f1-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393727562' status='passed' stop='1635393727792'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='a53f9245-841a-4eb2-b5c1-9ff2b2dfd0c3-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393727792' status='passed' stop='1635393728026'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='e3e62075-6474-4be4-bf0f-49fd2861e068-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393728026' status='passed' stop='1635393728273'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='98c40e97-5238-4c5f-8f84-9fd171224061-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393728273' status='passed' stop='1635393728504'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='56cc372e-db29-4986-bab5-abdfe0896795-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393728504' status='passed' stop='1635393728737'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='aaf5456d-3188-44b1-a335-51ff8c519c99-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393728737' status='passed' stop='1635393728969'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Screenshot' source='bf43c0cc-2700-4545-a7aa-d05f43fa99a7-attachment.png' type='image/png' size='119311'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393728969' status='passed' stop='1635393729012'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Response' source='9f319596-6167-4327-9855-be5230108d44-attachment.json' type='application/json' size='136'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps/>
+                                                                                                                </step>
+                                                                                                                <step start='1635393729012' status='undefined'>
+                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                    <attachments/>
+                                                                                                                    <steps>
+                                                                                                                        <step start='1635393729019' status='undefined'>
+                                                                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                            <attachments/>
+                                                                                                                            <steps>
+                                                                                                                                <step start='1635393729021' status='passed' stop='1635393729257'>
+                                                                                                                                    <name>POST /session/:sessionId/element</name>
+                                                                                                                                    <title>POST /session/:sessionId/element</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Request' source='fc9a5148-2986-4202-9bc7-dab9845845a0-attachment.json' type='application/json' size='384'/>
+                                                                                                                                        <attachment title='Screenshot' source='a1233105-818a-45fe-832c-d61ea3e97668-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393729257' status='passed' stop='1635393729523'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='6c8504c3-5726-4f05-83e0-806d74428cfd-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393729523' status='passed' stop='1635393729762'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='ae9d7849-afb0-492d-9d2a-5b5a29e177f5-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393729762' status='passed' stop='1635393729995'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='7530f3c9-8834-4aa3-afda-bfaa59a39e84-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393729995' status='passed' stop='1635393730232'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='a3d74eca-919e-4e0a-ae14-f3ec1e5ae8c4-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393730232' status='passed' stop='1635393730458'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='e5e0579a-6935-4a5b-9ef9-cf6c365ac24c-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393730458' status='passed' stop='1635393730715'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='102a7d58-de9a-4912-9ce0-7cac25bf3143-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393730715' status='passed' stop='1635393730948'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='5049a27f-0370-40f6-856b-031b00c28ffc-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393730948' status='passed' stop='1635393731176'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='ea9ee63a-b464-44d4-906d-b0dbe259b439-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393731176' status='passed' stop='1635393731411'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='d634e26b-b917-4dbf-bb4a-ea383c40d23f-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393731411' status='passed' stop='1635393731640'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='95a508da-7a9c-411e-9e12-cd5691a57b1b-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393731640' status='passed' stop='1635393731884'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='491ab1f0-5b96-40d7-b287-60b9cad0949d-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393731884' status='passed' stop='1635393732133'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Screenshot' source='e8e999de-b7f4-4752-9399-24fe4c62729a-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393732133' status='passed' stop='1635393732172'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Response' source='c5cf52ea-4041-42f2-b60b-86968f40892d-attachment.json' type='application/json' size='136'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps/>
+                                                                                                                                </step>
+                                                                                                                                <step start='1635393732173' status='undefined'>
+                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                    <attachments/>
+                                                                                                                                    <steps>
+                                                                                                                                        <step start='1635393732177' status='undefined'>
+                                                                                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                            <attachments/>
+                                                                                                                                            <steps>
+                                                                                                                                                <step start='1635393732180' status='passed' stop='1635393732412'>
+                                                                                                                                                    <name>POST /session/:sessionId/element</name>
+                                                                                                                                                    <title>POST /session/:sessionId/element</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Request' source='d0137d5e-d0b1-4f59-ba90-d5370102d34b-attachment.json' type='application/json' size='384'/>
+                                                                                                                                                        <attachment title='Screenshot' source='4782ac06-1191-4328-93e9-3a7d63f14b8e-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393732412' status='passed' stop='1635393732667'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='6f056ce3-1a16-40cc-8e9c-891e7d91950a-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393732667' status='passed' stop='1635393732911'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='97bbe2ab-bf87-4b37-9669-a7c4b26d49a7-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393732912' status='passed' stop='1635393733150'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='7ce8c778-ba89-4d3f-8929-4c92861d6192-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393733150' status='passed' stop='1635393733384'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='7b95d5c1-77aa-4986-8861-d68f7af52b6b-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393733384' status='passed' stop='1635393733634'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='6dd95e96-f3f4-4208-9515-7b28e6c8823c-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393733634' status='passed' stop='1635393733875'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='fcb3a967-08b1-48d5-abac-fbd35563a84c-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393733876' status='passed' stop='1635393734100'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='d28da376-a850-4f99-aee0-8aa24ca125cd-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393734101' status='passed' stop='1635393734369'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='2b38b250-bb94-47cb-83e8-a7424d3af1ed-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393734369' status='passed' stop='1635393734630'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='b1fcb894-ecf5-4076-a4d2-a9b2ee21ed45-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393734630' status='passed' stop='1635393734875'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='537d873e-d531-4ac8-9273-63661f2eeab5-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393734875' status='passed' stop='1635393735107'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='b0fd5c72-ecc9-4368-8452-1395d7526c61-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393735107' status='passed' stop='1635393735341'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='1d21551d-4a26-4bdf-8d44-65e5923b2394-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393735341' status='passed' stop='1635393735619'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='fd58ced1-8d62-48c5-9d0f-f033d08f272c-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393735619' status='passed' stop='1635393735874'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Screenshot' source='193bcc92-0164-493f-91f4-d906a22cfe23-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393735874' status='passed' stop='1635393735910'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Response' source='c5b941da-8ba3-40ec-9631-12e336812494-attachment.json' type='application/json' size='136'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps/>
+                                                                                                                                                </step>
+                                                                                                                                                <step start='1635393735910' status='undefined'>
+                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                    <attachments/>
+                                                                                                                                                    <steps>
+                                                                                                                                                        <step start='1635393735915' status='undefined'>
+                                                                                                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                            <attachments/>
+                                                                                                                                                            <steps>
+                                                                                                                                                                <step start='1635393735918' status='passed' stop='1635393736154'>
+                                                                                                                                                                    <name>POST /session/:sessionId/element</name>
+                                                                                                                                                                    <title>POST /session/:sessionId/element</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Request' source='2640ad7c-b531-4a73-8354-cd979f4ace2e-attachment.json' type='application/json' size='384'/>
+                                                                                                                                                                        <attachment title='Screenshot' source='1fde7f2b-c277-464b-8454-b39c0f67065f-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393736154' status='passed' stop='1635393736386'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='a72129be-3ad9-4b71-aae9-d050befc8624-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393736386' status='passed' stop='1635393736650'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='f5c48899-5a4c-4619-8694-b08ff4ec48be-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393736650' status='passed' stop='1635393736884'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='22cb80d4-fc9f-4135-9165-ed6ae25f757d-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393736884' status='passed' stop='1635393737134'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='9c19129a-2853-4ad8-a104-7e35eb7a6105-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393737134' status='passed' stop='1635393737417'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='e5414d94-c253-4df0-9d18-631c2bd2b149-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393737417' status='passed' stop='1635393737648'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='d9f9952f-b03b-4e9b-bed1-5ad6d5fa2874-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393737648' status='passed' stop='1635393737874'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='621960b2-411d-4df5-b89e-5791eea7400a-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393737874' status='passed' stop='1635393738125'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='23b5ab78-d619-4efb-a467-9b7c11dc6220-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393738125' status='passed' stop='1635393738381'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='2b2160cf-33eb-4d83-8661-a68a10a1b32e-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393738381' status='passed' stop='1635393738613'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='0d010964-99f9-4e65-a94f-50476be96369-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393738613' status='passed' stop='1635393738851'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='51eaec34-53eb-4ae9-ae04-2cbec0578601-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393738851' status='passed' stop='1635393739083'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='f38d08e0-610c-40d3-8106-236ef5dc941d-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393739083' status='passed' stop='1635393739321'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='a3454ace-42e7-4837-957d-2dc11d353f6e-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393739322' status='passed' stop='1635393739549'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='6559ee81-0891-4fc2-a6d8-767862fb9a26-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393739549' status='passed' stop='1635393739793'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='6e5dea52-bcee-408f-b2d4-bd3ae252d141-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393739794' status='passed' stop='1635393740150'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='64599b28-85cd-4d4b-9c5c-d1bfac889a94-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393740150' status='passed' stop='1635393740554'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Screenshot' source='d27b7f87-d0a6-4694-8782-a04d9f084aea-attachment.png' type='image/png' size='119311'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393740554' status='passed' stop='1635393740655'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Response' source='c8c6d5cb-e6c6-4405-b049-f077ef4337c0-attachment.json' type='application/json' size='136'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps/>
+                                                                                                                                                                </step>
+                                                                                                                                                                <step start='1635393740655' status='undefined'>
+                                                                                                                                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                    <attachments/>
+                                                                                                                                                                    <steps>
+                                                                                                                                                                        <step start='1635393740660' status='undefined'>
+                                                                                                                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                            <attachments/>
+                                                                                                                                                                            <steps/>
+                                                                                                                                                                        </step>
+                                                                                                                                                                    </steps>
+                                                                                                                                                                </step>
+                                                                                                                                                            </steps>
+                                                                                                                                                        </step>
+                                                                                                                                                    </steps>
+                                                                                                                                                </step>
+                                                                                                                                            </steps>
+                                                                                                                                        </step>
+                                                                                                                                    </steps>
+                                                                                                                                </step>
+                                                                                                                            </steps>
+                                                                                                                        </step>
+                                                                                                                    </steps>
+                                                                                                                </step>
+                                                                                                            </steps>
+                                                                                                        </step>
+                                                                                                    </steps>
+                                                                                                </step>
+                                                                                            </steps>
+                                                                                        </step>
+                                                                                    </steps>
+                                                                                </step>
+                                                                            </steps>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1635393740675' status='passed' stop='1635393740681'>
+            <name>When as user I want to see home screen is displayed</name>
+            <title>When as user I want to see home screen is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Nexus 6 10.0.0-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1635393740681' status='passed' stop='1635393740682'>
+            <name>Then as user I want to Checkmark an element</name>
+            <title>Then as user I want to Checkmark an element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Nexus 6 10.0.0-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1635393740682' status='passed' stop='1635393740685'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Nexus 6 10.0.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1635393740683' status='undefined'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
