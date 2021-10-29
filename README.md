@@ -28,7 +28,7 @@ Mobile and API automation framework based on Cucumber - WebdriverIO - NodeJS - T
 ## Getting started
 ### Pre-requisites
 
-- Clone Automation GIT project from Azure ()
+- Clone Automation GIT project from Azure ("https://github.com/Crojasf01/rindus.git")
 - Latest version of Node.js from the [official website](https://nodejs.org/) or using [nvm](https://github.com/creationix/nvm) (nvm approach is preferred).
 	-  If you install Node.js from the official website, you must check the 'Tools for Native Modules' checkbox during the installation (it is not checked by default)
 - Install Android Studio from the [official website](https://developer.android.com/studio).
